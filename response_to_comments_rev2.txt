@@ -1,0 +1,108 @@
+Dear reviewers,
+
+we have read your remarks and here is out response.
+
+
+>I still have a principal remark concerning an interpretation of the main result of the paper. 
+>
+>The fact that the limit on the branching fraction is much lower 
+>than the only theoretical estimate available [ref. 11] doesn't imply 
+>that there's a fundamental problem in the theory to be resolved by introducing new effects, etc. 
+>On the other hand, the current text still tempts a reader to interprete your result like this, 
+>while it should suggest that more accurate theoretical predictions for the branching are needed. 
+
+We do not imply any of the two answers.
+
+
+
+>>> Fig.1;  ... 
+>
+>> ... We agree that the caption to Fig. 1 might be misleading so we suggest to change 
+>> "dominant contributions" -> "contributions". The intention of this 
+>> figure is to give the reader a feeling for the type of amplitudes 
+>> involved, not to be comprehensive. 
+>
+>The point is that the sum of amplitudes with the photon attached to the loop is not gauge invariant, 
+>and one needs the FSR diagram to restore the invariance. 
+>Dropping the FSR diagram immediately gives a feeling that something is heavily broken. 
+>I suggest to add the FSR diagram to Fig. 1. 
+
+We added FSR diagram to the Figure 1.
+
+
+>Line 51: "A recent theoretical calculation ..." --> "The only theoretical calculation available is based 
+>on vector-boson dominance and predicts ..." 
+
+We have changed the formulation to suggested "The only theoretical calculation available is based
+ on vector-boson dominance and predicts ..."
+
+
+>>>   I'd propose to (1) give no comments on the tension between the limit on the branching ratio 
+>>>   and previously made theoretical estimates; (2) remove the theoretical curve from the 
+>>>   $M_{corr}$ figure. 
+>
+>> There is a single published paper in the literature that provides a 
+>> prediction of the decay and nothing published on a critique of the 
+>> calculation. While we are aware of some of the potential shortcomings, 
+>> we believe that the calculation should still be referenced.  We propose 
+>> to tone down the conclusion : instead of "The limit on the branching 
+>> fraction is in tension with a recent theoretical calculation" we write 
+>> "The limit on the branching fraction is different to a recent 
+>> theoretical calculation". Removing the theoretical curve will weaken the 
+>> message we are trying to deliver in this plot, that is, that the signal 
+>> component has a well-defined shape (narrow and away from most of the 
+>> backgrounds). 
+>
+>It's fine with me to keep the theoretical curve in Fig.4, given that the caption includes 
+>" .. how the total would have looked like if the signal had the branching fraction predicted in [11]". 
+>
+>Further, [11] can be referenced in the introduction as it's the only published theoretical paper, but 
+>keeping [11] in the conclusion may lead to a misinterpretation of the experimental result, 
+>as mentioned above. 
+>For this reason I strongly suggest to remove [11] from the conclusion. 
+>Actually your result should trigger more accurate theoretical calculations 
+>rather than give rise to speculations about possible flaws in the measurement or even 
+>new effects needed to explain the discrepancy. 
+
+Sally: what did we decide here? I think we should keep our grounds, but if not I can remove it from the conclusion.
+
+My proposed answer: We believe that as it is formulated now, this measurement will trigger disucssion of more theoretical input even if we mention the publication in the conclusion.
+
+>>>Sec. 5 ``Normalisation method''; Fig.3: 
+>>> 
+>>>   Eq.(2): 
+>>> 
+>>>    Could you please explicitly specify how $\epsilon(B^+ \to \mu^+\mu^-\mu^-\nu_\mu)$ 
+>>>    is obtained? 
+>
+>
+>> At the end of Sec.2 "Detector and simulation" we mention three different 
+>> simulation models. We propose to modify "The nominal model has a photon 
+>> pole for one of the muon pairs and a uniform mass 
+>> distribution for the combination of the third muon and the neutrino" -> 
+>> "The nominal model, with which efficiency for signal selection 
+>> ($\epsilon(B^+ \to \mu^+\mu^-\mu^-\nu_\mu)$) is calculated, has a photon 
+>> pole for one of the muon pairs and a uniform mass distribution for the 
+>> combination of the third muon and the neutrino". 
+>
+>Could you please rephrase this for better clarity as follows: 
+>
+>"In the nominal model, with which the efficiency <....> is calculated, 
+>the $B^+$ decay products are distributed in the phase space with a weight 
+>accounting only for the photon pole in the invariant mass distribution of one of the muon pairs. 
+>For systematic studies, a flat phase space model is used."? 
+
+We are not assigning weight to only a photon pole, so we believe that this reformulation would mislead the reader. However we changed "For systematic checks, a phase space model is used" -> "For systematic checks, a flat phase space model is used" 
+
+>>>    The uncertainty of the signal template must be shown in Fig.3 with a proper comment in the text. 
+>
+>>The uncertainty of the signal template in corrected mass is very small 
+>>and not affected by the physics model of the decay in any noticeable 
+>>way. We propose not to make any change. 
+>
+>However, you assign 4.6% uncertainty to the model dependence of the signal shape (Tab.1). 
+>If it's too small to be made visible in Fig.3, please add a note to the Fig.3 caption: 
+>" A small systematic uncertainty of the signal shape due to the choice of the signal model is not shown." 
+
+We added to the Figure 3 : "A systematic uncertainty on the signal shape due to the choice of the signal model is not shown, as it is too small to be visible."
+

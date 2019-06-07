@@ -1,0 +1,49 @@
+\section{Selection}
+\label{sec:Selection}
+Signal \Bp decay candidates are reconstructed by combining one negatively and 
+two positively charged tracks. These tracks are required to be of good quality, be inconsistent with originating from any PV, be positively identified as muons and form a good-quality SV 
+displaced from any PV. The PV with the smallest $\chisqip$ is the associated PV, where \chisqip\ is defined as 
+the difference in the vertex-fit \chisq of a given PV reconstructed with and
+without the \Bp trajectory included.
+The momentum vector of the $\Bp$ decay products is 
+required to point in the same direction as the line connecting the 
+associated PV and the SV with an allowance made for the momentum that 
+is carried away by the neutrino in the decay. 
+
+At most one hit in the muon 
+stations is allowed to be shared between two different muon candidates. This reduces the rate of hadrons misidentified as muons when there is already a muon of the same sign in the detector. In this analysis that has two muons of the same sign in
+the final state it is essential to reduce this type of misidentification. The search for the signal is performed in the region where the lower of
+the two $\mumu$ mass combinations is below $980$\mevcc to avoid potential 
+background from 
+$\decay{\phi}{\mup\mun}$ decays. Moreover, above this mass the 
+combinatorial background grows and the expected signal yield is minimal, 
+making a search there difficult. Backgrounds originating from candidates 
+involving \jpsi and \psitwos decays are removed by vetoing the mass 
+regions $2946\mevcc < M_{\mup\mun} < 3176\mevcc$ and $3586\mevcc < 
+M_{\mup\mun} < 3766\mevcc$ of the higher of the two $\mumu$ mass 
+combinations. Finally, a tight particle identification~(PID) selection, 
+based on a neural network, is applied to reject misidentified hadrons.
+
+The missing neutrino in the reconstruction of the \Bp candidate is accounted for with the addition of the momentum component perpendicular to \B meson flight direction, $p_\perp$. This direction is determined from the position of the PV where the \Bp meson is produced and the SV where it decays. The resulting \textit{corrected mass} is defined as,
+\begin{equation}
+	M_{\rm{corr}} = \sqrt{M_{\mu\mu\mu}^{2} + |p_{\perp}|^2} + |p_{\perp}|,
+\end{equation}
+where $M_{\mu\mu\mu}$ is the mass of the three muons. Candidates are kept if they satisfy $4000\mevcc < M_{\rm{corr}} < 7000\mevcc$. Inside this a signal region is defined as  $4500\mevcc < M_{\rm{corr}} < 5500\mevcc$. To avoid any bias in the development of the signal selection algorithm, the data in this region was not analysed until the selection was finalised and the systematic uncertainties evaluated. The uncertainty on the corrected mass is dominated by the resolution of the SV.
+
+To reduce combinatorial background, where random tracks are combined to emulate the signal, a boosted decision tree classifier~(BDT)~\cite{Breiman} with the AdaBoost algorithm\cite{AdaBoost} as implemented in the TMVA toolkit~\cite{Hocker:2007ht,*TMVA4} is used. The BDT classifier is trained using simulation as a signal sample and the upper sideband $M_{\rm{corr}} > 5500\mevcc$ of data as a proxy of the combinatorial background candidates. To best exploit the limited amount of data available for training, a ten-fold cross-validation method~\cite{kfold} is employed. The BDT contains information about kinematic and geometric properties of the $\Bp$ candidate and associated muon tracks together with the total number of reconstructed tracks in the event. The most distinguishing properties between signal and combinatorial background candidates are the isolation of the decay vertex (as described in Ref.~\cite{LHCb-PAPER-2015-025}), the $\chi^2$ of the $\Bp$ vertex, and the \chisqip with respect to the associated PV for all three muon candidates. The requirement on the BDT response is optimised by maximising the figure of merit $\frac{\varepsilon_{S}}{\sqrt{n_B}+3/2}$~\cite{Punzi:2003bu} where $\varepsilon_{S}$ is the signal efficiency of the selection and $n_B$ refers to the estimated number of background candidates in the signal region. The optimal BDT working point is $40\%$ efficient on simulated signal events while rejecting $99\%$ of the combinatorial background. For the optimisation, only relative changes in signal efficiency are relevant and these are obtained from the simulation.
+
+A second BDT is trained to reject contamination from misidentified
+background. This background originates mostly from cascade decays where a
+\bquark hadron undergoes a semileptonic decay through the dominant \bquark
+to \cquark transition and the resulting \cquark hadron also decays
+semileptonically. The second BDT shares the same architecture, features 
+and
+working-point optimisation strategy as the BDT designed to reject
+combinatorial background. It is trained on a
+background sample selected in data where two tracks are positively
+identified as muons and the third track is required to be in the fiducial
+region covered by the muon chambers but with a veto on muon
+identification. The signal sample is using the simulated sample after it has been accepted by the first BDT. The optimisation results in that $40\%$ of the signal sample is retained and $94\%$ of the misidentified background is
+rejected.
+
+The overall selection results in 1797 candidates. There are no events with multiple candidates. The total efficiency for selecting the signal is about 0.1\%.

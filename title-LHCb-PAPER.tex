@@ -1,0 +1,103 @@
+% $Id: title-LHCb-PAPER.tex 122939 2018-08-21 08:32:40Z uegede $
+% ===============================================================================
+% Purpose: LHCb-PAPER journal paper title page template
+% Author: 
+% Created on: 2010-09-25
+% ===============================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\pagenumbering{roman}
+
+% Header ---------------------------------------------------
+\vspace*{-1.5cm}
+\centerline{\large EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)}
+\vspace*{1.5cm}
+\noindent
+\begin{tabular*}{\linewidth}{lc@{\extracolsep{\fill}}r@{\extracolsep{0pt}}}
+\ifthenelse{\boolean{pdflatex}}% Logo format choice
+{\vspace*{-1.5cm}\mbox{\!\!\!\includegraphics[width=.14\textwidth]{lhcb-logo.pdf}} & &}%
+{\vspace*{-1.2cm}\mbox{\!\!\!\includegraphics[width=.12\textwidth]{lhcb-logo.eps}} & &}%
+\\
+ & & CERN-EP-2018-293 \\  % ID 
+ & & LHCb-PAPER-2018-037 \\  % ID 
+% & & \today \\ % Date - Can also hardwire e.g.: 23 March 2010
+ & & December 14, 2018
+% not in paper \hline
+\end{tabular*}
+
+\vspace*{4.0cm}
+
+% Title --------------------------------------------------
+{\normalfont\bfseries\boldmath\huge
+\begin{center}
+% DO NOT EDIT HERE. Instead edit macro in main.tex to keep metadata correct
+  \papertitle 
+\end{center}
+}
+
+\vspace*{2.0cm}
+
+% Authors -------------------------------------------------
+\begin{center}
+%In the footnote, replace 'paper' by 'Letter' in case of submission to PRL or PLB 
+% Edit macro in main.tex to keep metadata correct
+\paperauthors\footnote{Authors are listed at the end of this paper.}
+\end{center}
+
+\vspace{\fill}
+
+% Abstract -----------------------------------------------
+\begin{abstract}
+  \noindent
+  A search for the rare leptonic decay \Bmumumu is performed using
+  proton-proton collision data corresponding to an integrated
+  luminosity of $4.7$ fb$^{-1}$ collected by the \lhcb experiment. The search is carried out in the
+  region where the lowest of the two $\mumu$ mass combinations is
+  below $980$\mevcc. The data are consistent with the background-only
+  hypothesis and an upper limit of $1.6 \times 10^{-8}$ at 95\% confidence
+  level is set on the branching fraction in the stated kinematic
+  region.
+\end{abstract}
+
+\vspace*{2.0cm}
+
+\begin{center}
+  Submitted to Eur.~Phys.~J.~C 
+\end{center}
+
+\vspace{\fill}
+
+{\footnotesize
+% Edit macro in main.tex to keep metadata correct
+\centerline{\copyright~\papercopyright. \href{\paperlicenceurl}{\paperlicence}.}}
+\vspace*{2mm}
+
+
+%{\footnotesize 
+% Edit macro in main.tex to keep metadata correct
+%\centerline{\copyright~\papercopyright, licence %\href{\paperlicenceurl}{\paperlicence}.}}
+%\vspace*{2mm}
+
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  EOD OF TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  empty page follows the title page ----
+\newpage
+\setcounter{page}{2}
+\mbox{~}
+
+\cleardoublepage
+
+
+
+
+
+
+

@@ -1,0 +1,283 @@
+62,86c62,66
+< from the B + → µ+ νµ V amplitude, where V denotes a vector meson such as the ω or the ρ,
+< that can decay to a pair of muons. With these contributions, nearly all decays have a muon
+< pair with a mass below 1 GeV/c2 . A recent theoretical calculation based on vector-meson
+< dominance predicts that the corresponding branching fraction, B(B + → µ+ µ− µ+ νµ ), is
+< around 1.3 × 10−7 [11].
+< 
+<                           µ+                                                    µ+
+< 
+< 
+<                      γ∗
+<                                                                            W+   ν
+<                           µ−
+<                                               ν                                                        µ−
+<                 b̄         b̄                                         b̄            u              ∗
+<                                          W+                                                    γ
+<      +                                                          +
+<  B                                                          B
+<                       u         B   ∗+
+<                                                                             u           ρ, ω
+<                                               µ+                                                       µ+
+< 
+< Figure 1: Feynman diagrams of the contributions (left) B + → µ+ νµ γ ∗ with γ ∗ → µ+ µ− and
+< (right) B + → µ+ νµ V to the B + → µ+ µ− µ+ νµ decay.
+< 
+< 
+---
+> from the B + → µ+ νµ V amplitude, where V denotes a vector meson such as the ω or the
+> ρ, that can decay to a pair of muons. With these contributions, nearly all decays have
+> a muon pair with a mass below 1 GeV/c2 . The only theoretical calculation available is
+> based on vector-meson dominance and predicts that the corresponding branching fraction,
+> B(B + → µ+ µ− µ+ νµ ), is around 1.3 × 10−7 [11].
+94,99c74
+<     1
+<         The inclusion of charge-conjugate processes is implied throughout this paper.
+< 
+< 
+<                                                       1
+< background is covered in Sec. 4, the normalisation of the branching fraction of the signal
+---
+> background is covered in Sec. 4, the normalisation of the branching fraction of the signal
+105c80
+< 2    Detector and simulation
+---
+> 2         Detector and simulation
+110a86,120
+>     1
+>         The inclusion of charge-conjugate processes is implied throughout this paper.
+> 
+> 
+>                                                       1
+>                      µ+                                                    µ+
+> 
+> 
+>                 γ∗
+>                                                                       W+   ν
+>                      µ−
+>                                          ν                                                        µ−
+>            b̄         b̄                                         b̄            u              ∗
+>                                     W+                                                    γ
+>       +                                                 +
+>   B                                                 B
+>                  u         B   ∗+
+>                                                                        u           ρ, ω
+>                                          µ+                                                       µ+
+>                                                              +
+>                                                             µ
+> 
+>                                                             µ−
+> 
+>                                                     γ∗
+> 
+> 
+>                                                     µ+
+>                                     B+
+>                                               W+
+>                                                     ν
+> Figure 1: Feynman diagrams of the contributions (top left) B + → µ+ νµ γ ∗ with γ ∗ → µ+ µ− and
+> (top right) B + → µ+ νµ V and Bremsstrahlung (bottom) to the B + → µ+ µ− µ+ νµ decay.
+> 
+> 
+136c146,148
+< toolkit [22] as described in Ref. [23].
+---
+> 
+>                                                2
+> toolkit [22] as described in Ref. [23].
+139,140c151,152
+< calculated, has a photon pole for one of the muon pairs and a uniform mass distribution
+< for the combination of the third muon and the neutrino. For systematic checks, a phase
+---
+> calculated, has a photon pole for one of the muon pairs and a uniform mass distribution for
+> the combination of the third muon and the neutrino. For systematic checks, a flat phase
+145,148c157
+< 
+< 
+<                                              2
+< 3     Selection
+---
+> 3     Selection
+186c195,197
+< simulation as a signal sample and the upper sideband Mcorr > 5500 MeV/c2 of data as a
+---
+> 
+>                                              3
+> simulation as a signal sample and the upper sideband Mcorr > 5500 MeV/c2 of data as a
+194,196c205
+< 
+<                                              3
+< The requirement on the BDT response is optimised by maximising the figure of merit
+---
+> The requirement on the BDT response is optimised by maximising the figure of merit
+237c246,249
+<     Probabilities of misidentifying hadrons as muons are obtained from data as a function
+---
+> 
+> 
+>                                                4
+>     Probabilities of misidentifying hadrons as muons are obtained from data as a function
+245,248c257
+< 
+< 
+<                                                4
+< pion and proton hypotheses, respectively. Initially, the number of misidentified candidates
+---
+> pion and proton hypotheses, respectively. Initially, the number of misidentified candidates
+282c291
+<                                          0                               0
+---
+>                                          0                                 0
+289,297c298
+< 5     Normalisation method
+< The branching fraction of a B + → µ+ µ− µ+ νµ signal is obtained by normalising to the
+< B + → J/ψ (→ µ+ µ− )K + decay as
+<         B(B + → µ+ µ− µ+ νµ ) = B(B + → J/ψ K + ) × B(J/ψ → µ+ µ− )
+<                                     ε(B + → J/ψ K + )     N (B + → µ+ µ− µ+ νµ )          (2)
+<                                 ×                       ×                        ,
+<                                   ε(B + → µ+ µ− µ+ νµ )    N (B + → J/ψ K + )
+< 
+<                                               5
+---
+>                                                5
+318a320,328
+> 5     Normalisation method
+> The branching fraction of a B + → µ+ µ− µ+ νµ signal is obtained by normalising to the
+> B + → J/ψ (→ µ+ µ− )K + decay as
+> 
+>               B(B + → µ+ µ− µ+ νµ ) = B(B + → J/ψ K + ) × B(J/ψ → µ+ µ− )
+>                                           ε(B + → J/ψ K + )     N (B + → µ+ µ− µ+ νµ )        (2)
+>                                       ×                       ×                        ,
+>                                         ε(B + → µ+ µ− µ+ νµ )    N (B + → J/ψ K + )
+> 
+336,344d345
+< and all other parameters are determined from simulation. The shape of the misidentified
+< background contribution of B + → J/ψ π + decays is modelled with a Gaussian core with
+< power law tails on each side of the peak. The mean and width are allowed to vary
+< freely in the fit while the tail parameters are determined from simulation. Combinatorial
+< background is parameterised with an exponential function with a decay constant that is
+< allowed to vary in the fit. The result of the fit is shown in Fig. 2 and yields 2.7 × 105
+< B + → J/ψ K + decays.
+< 
+< 
+363,366c364,378
+< Figure 3: Template distributions for signal and misidentified background shapes for high and
+< low fractional corrected mass uncertainty. A low uncertainty on the corrected mass corresponds
+< to data with better mass resolution. The shape of the misidentification template is obtained
+< from a control sample while the signal template is obtained from simulation.
+---
+> Figure 3: Template distributions for signal and misidentified background shapes for high and low
+> fractional corrected mass uncertainty. A low uncertainty on the corrected mass corresponds to
+> data with better mass resolution. The shape of the misidentification template is obtained from a
+> control sample while the signal template is obtained from simulation. A systematic uncertainty
+> on the signal shape due to the choice of the signal model is not shown, as it is too small to be
+> visible.
+> 
+> 
+> and all other parameters are determined from simulation. The shape of the misidentified
+> background contribution of B + → J/ψ π + decays is modelled with a Gaussian core with
+> power law tails on each side of the peak. The mean and width are allowed to vary
+> freely in the fit while the tail parameters are determined from simulation. Combinatorial
+> background is parameterised with an exponential function with a decay constant that is
+> allowed to vary in the fit. The result of the fit is shown in Fig. 2 and yields 2.7 × 105
+> B + → J/ψ K + decays.
+383,393d394
+<     The background from misidentified muons is obtained from the µ+ µ− hX control
+< sample described in Sec. 4. The distribution and yield of this sample is fitted to a
+< Gaussian function with a power-law tail at high corrected mass. This parameterisation
+< is cross-checked by fitting a sample with a looser muon identification requirement. The
+< uncertainties on the associated parameters are propagated to the fit using a multivariate
+< Gaussian constraint. The shape and the yield of the partially reconstructed background
+< are taken from simulation. Yields that are obtained from control samples and simulation
+< are allowed to vary in the fit within constraints from a Poisson distribution.
+<     The fit to the corrected-mass distribution, combining both corrected-mass uncertainty
+< categories, is shown in Fig. 4. The signal yield is negative, −25 ± 16, resulting in the total
+< 
+419a421,430
+>      The background from misidentified muons is obtained from the µ+ µ− hX control
+> sample described in Sec. 4. The distribution and yield of this sample is fitted to a
+> Gaussian function with a power-law tail at high corrected mass. This parameterisation
+> is cross-checked by fitting a sample with a looser muon identification requirement. The
+> uncertainties on the associated parameters are propagated to the fit using a multivariate
+> Gaussian constraint. The shape and the yield of the partially reconstructed background
+> are taken from simulation. Yields that are obtained from control samples and simulation
+> are allowed to vary in the fit within constraints from a Poisson distribution.
+>      The fit to the corrected-mass distribution, combining both corrected-mass uncertainty
+> categories, is shown in Fig. 4. The signal yield is negative, −25 ± 16, resulting in the total
+431,440c442
+< 7     Systematic uncertainties
+< A summary of the systematic uncertainties is given in Table 1, yielding a total relative
+< uncertainty of 16% on the normalisation of the branching fraction of the signal.
+<     The largest systematic uncertainty arises due to the choice of the shape for the
+< combinatorial background. If the combinatorial background is allowed to have two
+< components with different exponential slope, the upper limit on the branching fraction
+< changes by 14.2%. While the fit does not improve from adding in an extra component, its
+< existence cannot be excluded from the fit to the data.
+<     In simulation, the nominal signal model, as described in Sec. 2, creates a photon
+< pole, increasing the branching fraction in the low dimuon mass region. The associated
+---
+> 
+457a460,469
+> 7    Systematic uncertainties
+> A summary of the systematic uncertainties is given in Table 1, yielding a total relative
+> uncertainty of 16% on the normalisation of the branching fraction of the signal.
+>     The largest systematic uncertainty arises due to the choice of the shape for the
+> combinatorial background. If the combinatorial background is allowed to have two
+> components with different exponential slope, the upper limit on the branching fraction
+> changes by 14.2%. While the fit does not improve from adding in an extra component, its
+> existence cannot be excluded from the fit to the data.
+>     In simulation, the nominal signal model, as described in Sec. 2, creates a photon
+> pole, increasing the branching fraction in the low dimuon mass region. The associated
+479c491,494
+< case where no weights are applied, is assigned as a systematic uncertainty.
+---
+> 
+> 
+>                                              9
+> case where no weights are applied, is assigned as a systematic uncertainty.
+492,493c507
+<                                               9
+< 8     Conclusions
+---
+> 8     Conclusions
+526c540,543
+< References
+---
+> 
+> 
+>                                              10
+> References
+537,541c554
+< 
+< 
+< 
+<                                              10
+<  [4] Belle collaboration, K. Hara et al., Evidence for B − → τ − ν̄τ with a hadronic tagging
+---
+>  [4] Belle collaboration, K. Hara et al., Evidence for B − → τ − ν̄τ with a hadronic tagging
+581c594,596
+< [16] A. A. Alves Jr. et al., Performance of the LHCb muon system, JINST 8 (2013)
+---
+> 
+>                                             11
+> [16] A. A. Alves Jr. et al., Performance of the LHCb muon system, JINST 8 (2013)
+592,595c607
+< 
+< 
+<                                             11
+< [19] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+---
+> [19] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+636c648,650
+< [31] LHCb collaboration, R. Aaij et al., First observation of the decay D0 → K − π + µ+ µ−
+---
+> 
+>                                              12
+> [31] LHCb collaboration, R. Aaij et al., First observation of the decay D0 → K − π + µ+ µ−
+646,649c660
+< 
+< 
+<                                              12
+< [34] A. L. Read, Presentation of search results: The CLs technique, J. Phys. G28 (2002)
+---
+> [34] A. L. Read, Presentation of search results: The CLs technique, J. Phys. G28 (2002)

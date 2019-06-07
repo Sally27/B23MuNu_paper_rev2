@@ -1,0 +1,52 @@
+\section{Background estimation}
+\label{sec:Misid}
+The main categories of background are: combinatorial; misidentified combinations, where two muons are correctly identified but the third particle is a misidentified hadron; and partially reconstructed that have an almost identical final state to the signal.
+
+As the combinatorial background arises from random combinations of three correctly identified muons, it has no peaking features in the considered region of corrected mass. Its contribution is estimated as part of the final fit to the data.
+
+In order to estimate the number of misidentified background candidates and their distribution in the $M_{\rm{corr}}$ variable, a
+data sample is obtained with the same selection as for the signal, apart from
+a reversal of the muon identification requirements for one of the candidate
+tracks. This track is still required to be within the fiducial volume of the
+muon detector. This selects a sample of $\mu^+\mu^\pm h X$ candidates in
+data, where $h$ denotes any hadron of either negative or positive charge. The
+sample is a mixture of partially reconstructed \bquark-hadron decays, where
+both the \bquark-hadron and the subsequent charm hadron decays semileptonically,
+and combinatorial background. Backgrounds where two hadrons are identified as
+muons are only contributing to the selected events at an insignificant level.
+
+Probabilities of misidentifying hadrons as muons are obtained from data as a function of momentum and pseudorapidity by using control samples where the hadron species are determined purely from the kinematic properties of the decay chain~\cite{LHCb-DP-2012-003}. As the misidentification probability is different for pions, kaons and protons~\cite{LHCb-DP-2013-001}, the species of the hadron must be determined.  This is done by isolating the hadrons in the $\mumu h X$ sample into separate hadron PID regions and then taking into account the cross-feed, calculated using an iterative approach, between these regions. The iterative approach splits the data sample into three PID regions, where the hadron candidate is consistent with the kaon, pion and proton hypotheses, respectively. Initially, the number of misidentified candidates of a given species is assumed to be zero, and the cross-feed between regions is calculated. From this first estimate of the number of misidentified particles in each of the PID regions, the cross-feed can then be recalculated. The process repeats until the number of total misidentified particles does not change significantly from one iteration to the next when compared to the statistical uncertainty from the sample size.
+
+Once the cross-feed between the different hadron species has been taken into account,
+the probability for a specific hadron to pass the stringent muon PID requirements
+applied in the analysis is calculated. The presence of the two real muons in the
+$\mumu h X$ background increases the probability to misidentify the hadron as a muon,
+mainly due to hit sharing in the muon stations. To take this into account, the hadron
+misidentification probability is obtained using the decay $\Bz \rightarrow \jpsi \Kstarz$, with $\decay{\jpsi}{\mup\mun}$ and $\decay{\Kstarz}{\Kp\pim}$, as a calibration sample where.
+It has two muons present as in the signal, and the kaon and pion can be identified
+without PID requirements on the particle under consideration. 
+In this way the probability of identifying the kaon or the
+pion from the \Kstarz decay as a muon can be measured.
+Double misidentification in the calibration sample, where the kaon and pion 
+hypotheses are swapped, is reduced by requiring a loose hadron identification
+on the hadron not under consideration for misidentification and subsequently 
+fitted for. 
+The background coming from
+protons misidentified as muons is insignificant, requiring no further action.
+
+The final distribution of the misidentified background in $M_{\rm{corr}}$ is obtained by multiplying the sample with the muon identification reversed with the relevant $h\to\mu$ misidentification probabilities.
+
+The level of partially reconstructed backgrounds, where three muons are correctly identified but one or more particles in addition to a neutrino are not reconstructed, is determined using simulation. An example of this type of decay is \mbox{${\B \rightarrow \Dzb \mup \nu_{\mu} X}$} where $\Dzb \rightarrow \Kp \pim \mup \mun$ and the $K^{+}$, $\pi^{-}$ and $X$ particles are not reconstructed. For this particular background, the measurements of the branching fractions of $\Dzb \rightarrow K^{+} \pi^{-} \mu^{+} \mu^{-}$~\cite{LHCb-PAPER-2015-043} and $\B \rightarrow \Dzb \mu^{+} \nu_{\mu} X$~\cite{PDG2018} are used. In total, partially reconstructed backgrounds are estimated at the level of eleven candidates in the signal region of corrected mass.
+
+Other potential backgrounds are considered. The decay
+$\decay{\Bp}{\Kp\mup\mun}$ with the kaon misidentified as a muon
+contributes in candidates with a corrected mass outside the signal region.
+This is not the case for the $\decay{\Bp}{\pip\mup\mun}$ decay, but the
+low branching fraction combined with the requirement for
+misindentification of the pion results in a negligible background level.
+The decay $\decay{\Bp}{\eta^{(')}\mup\nu_\mu}$, followed by the decay
+$\decay{\eta^{(')}}{\mup\mun\gamma}$, is also considered and found to be at a
+negligible level after the selection criteria are applied.
+Finally, backgrounds that involve a charmonium state decaying to a pair 
+of muons are excluded by the previously mentioned vetos on the $\jpsi$ and
+$\psitwos$ masses.

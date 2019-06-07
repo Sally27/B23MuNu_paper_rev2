@@ -1,0 +1,145 @@
+\pdfoutput=1
+% Uncomment line above if submitting to arXiv and using pdflatex
+
+% $Id: main.tex 122925 2018-08-20 14:58:33Z uegede $
+% ============================================================================
+% Purpose: Template for LHCb documents
+% Authors: Tomasz Skwarnicki, Roger Forty, Ulrik Egede
+% Created on: 2010-09-24
+% ============================================================================
+\documentclass[12pt,a4paper]{article}
+%%\documentclass[12pt,letter]{article}
+% For two column text, add "twocolumn" as an option to the document
+% class. Also uncomment the two "onecolumn" and "twocolumn" lines
+% around the title page below.
+
+% Variables that controls behaviour
+\usepackage{ifthen} % for conditional statements
+\newboolean{pdflatex}
+\setboolean{pdflatex}{true} % False for eps figures 
+
+\newboolean{articletitles}
+\setboolean{articletitles}{true} % False removes titles in references
+
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false} %True for upright particle symbols
+
+\newboolean{inbibliography}
+\setboolean{inbibliography}{false} %True once you enter the bibliography
+
+
+% Define titles and authors here. It will then be used both in metadata and in
+% what is printed on the front page.
+
+
+
+
+
+\def\paperauthors{LHCb collaboration} % Leave as is for PAPER and CONF
+\def\papertitle{Search for the rare decay \Bmumumu}
+\def\paperasciititle{Search for the rare decay Bplus to muplus muminus neutrino} % Set ASCII title here
+\def\paperkeywords{{High Energy Physics}, {LHCb}, {leptonic decay}, {Vub}}
+%\def\papercopyright{CERN for the benefit of the LHCb collaboration}
+%\def\paperlicence{CC-BY-4.0}
+%\def\paperlicenceurl{https://creativecommons.org/licenses/by/4.0/}
+\def\papercopyright{\the\year\ CERN for the benefit of the LHCb collaboration} % new since 9/Apr/2018
+\def\paperlicence{CC-BY-4.0 licence}
+\def\paperlicenceurl{https://creativecommons.org/licenses/by/4.0/}
+
+
+
+\input{preamble}
+
+%%My channels
+
+\def\Bmumumu {\decay{\Bp}{\mup\mun\mup\neum}}
+\def\bjpsik  {\decay{\Bp}{\ensuremath{\jpsi\Kp}}\xspace}
+\def\bjpsimumuk  {\decay{\Bp}{\ensuremath{{\jpsi}\decay({\mup\mun})\Kp}}}%\xspace}
+\def\bjpsimumupi  {\decay{\Bp}{\ensuremath{{\jpsi}\decay({\mup\mun})\pip}}}%\xspace}
+
+\def\bjpsimumumu  {\decay{\Bp}{\ensuremath{{\jpsi}\decay({\mup\mun})\mu^{+}}}}%\xspace}
+\def\bpsismumumu  {\decay{\Bp}{\ensuremath{{\psitwos}\decay({\mup\mun})\mu^{+}}}}%\xspace}
+
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Title     %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{1}
+
+% %%%%%%% CHOOSE TITLE PAGE--------
+%\onecolumn
+\input{title-LHCb-PAPER}
+%\twocolumn
+% %%%%%%%%%%%%% ---------
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  Table of Content   %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Uncomment next 2 lines if desired
+%\tableofcontents
+%\cleardoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Main text %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{plain} % restore page numbers for the main text
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%% Uncomment during review phase. 
+%% Comment before a final submission.
+%%\linenumbers
+
+% You can include short sections directly in the main tex file.
+% However, for larger papers it is desirable to split the text into
+% several semiautonomous files, which can be revised independently.
+% This is especially useful when developing a document in
+% collaboration with several people, since then different parts can be
+% edited independently.  This type of file organization is shown here.
+% 
+
+\input{introduction_2}
+
+\input{detector_3}
+
+\input{selection_2}
+
+\input{misid}
+
+\input{normalisation}
+
+\input{result}
+
+\input{systematics}
+
+\input{conclusion}
+
+% Comment this in for paper drafts; do not include this in analysis note and conference reports
+\input{acknowledgements}
+
+%\input{appendix_2}
+
+% This should be taken out in the final paper
+%\input{supplementary-app}
+
+\addcontentsline{toc}{section}{References}
+\setboolean{inbibliography}{true}
+\bibliographystyle{LHCb}
+\bibliography{main,LHCb-PAPER,LHCb-CONF,LHCb-DP,LHCb-TDR}
+ 
+
+\newpage
+
+\newpage
+\input{LHCb_Authorship_flat_22-Aug-2018.tex}
+\end{document}

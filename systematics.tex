@@ -1,0 +1,50 @@
+\section{Systematic uncertainties}
+\label{sec:systematics}
+
+A summary of the systematic uncertainties is given in Table~\ref{tab:systematicsummary}, yielding a total relative uncertainty of $16\%$ on the normalisation of the branching fraction of the signal.
+
+
+The largest systematic uncertainty arises due to the choice of the shape for the combinatorial background. If the combinatorial background is allowed to have two components with different exponential slope, the upper limit on the branching fraction changes by 14.2\%. While the fit does not improve from adding in an extra component, its existence cannot be excluded from the fit to the data.
+
+In simulation, the nominal signal model, as described in Sec.~\ref{sec:Detector}, creates a photon pole, increasing the branching fraction in the low dimuon mass region. The associated systematic uncertainty is estimated by replacing this decay with a model assuming a uniform phase-space distribution, but still with one of the muon pairs having a mass below 980\mevcc. This results in a $4.6\%$ systematic uncertainty. Using the model from Ref.~\cite{Danilina:2018uzr} results in a smaller variation.
+
+\begin{table}[tb]
+\centering
+\caption{Summary of systematic uncertainties. Numbers are on the relative uncertainty of the normalisation for the branching fraction of the signal.}
+\label{tab:systematicsummary}
+\begin{tabular}{ l  c }
+\hline
+Source & Relative normalisation uncertainty [\%] \\
+\hline
+Combinatorial background shape & 14.2 \\
+Choice of signal decay model  & \phantom{0}4.6\\
+Trigger efficiency data/simulation &  \phantom{0}3.5\\
+Normalisation mode branching fraction & \phantom{0}3.0 \\
+Kaon interaction probability &  \phantom{0}2.0\\
+Production kinematics & \phantom{0}1.5\\
+Fit bias & \phantom{0}1.0  \\
+Simulation sample size & \phantom{0}0.8 \\
+ \hline
+Total & \textbf{15.9} \\
+\end{tabular}
+\end{table}
+
+Differences in simulation and data for the ratio of trigger efficiencies between the signal and normalisation channels gives rise to a systematic uncertainty as well. The effect is evaluated by comparing the difference between the trigger efficiency of \mbox{\decay{\Bp}{\jpsi\Kp}} decays in simulation and data, yielding a $3.5\%$ systematic uncertainty. This value represents a conservative estimate since it does not take into account an expected cancellation between signal and normalisation modes. The uncertainty in the branching fraction of the normalisation mode leads to a 3\% uncertainty.
+
+Another difference between the signal and the normalisation channels is that
+the kaon in the decay \decay{\Bp}{\jpsi\Kp} can undergo nuclear interactions in the detector
+with a
+probability proportional to the amount of material traversed and thus have a lower tracking efficiency. Following the
+procedure outlined in Ref.~\cite{LHCb-DP-2013-002}, the uncertainty on this
+amount of material leads to a 2\% systematic uncertainty.
+
+Inaccuracies in the modelling of the $\Bp$ production kinematics lead to differences in efficiency between the signal and the normalisation channels. To account for this, correction weights to the \Bp meson momentum for the simulated samples are calculated using the measured distribution from \decay{\Bp}{\jpsi\Kp} decays.  The difference of 1.5\% in the relative efficiency between the signal and the normalisation channels, compared to the case where no weights are applied, is assigned as a systematic uncertainty.
+
+Other smaller systematic uncertainties are assigned to account for a small fit bias due to the low amount of data available and the finite size of the simulation samples.
+
+In the fit for the signal yield, all systematic uncertainties, apart from the variation in the background shape, affect the efficiency ratio and are added
+as Gaussian constraints on the relevant efficiency ratios when calculating
+the limit. They are assumed to be fully correlated between the bins of
+fractional corrected mass uncertainty and uncorrelated between the different
+effects. For the background shape, the increased freedom in the shape leads
+to a larger uncertainty in the signal yield. The likelihood distribution used for determining the limit is stretched by the relative change in uncertainty around the minimum to reflect this.

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: LHCb.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main.bib
+Database file #2: LHCb-PAPER.bib
+Database file #3: LHCb-CONF.bib
+Database file #4: LHCb-DP.bib
+Database file #5: LHCb-TDR.bib
+You've used 38 entries,
+            2909 wiz_defined-function locations,
+            965 strings with 12090 characters,
+and the built_in function-call counts, 161732 in all, are:
+= -- 17631
+> -- 340
+< -- 0
++ -- 1228
+- -- 82
+* -- 16200
+:= -- 20231
+add.period$ -- 39
+call.type$ -- 38
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 3031
+empty$ -- 16883
+format.name$ -- 82
+if$ -- 35172
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 196
+newline$ -- 240
+num.names$ -- 40
+pop$ -- 714
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 315
+stack$ -- 0
+substring$ -- 47329
+swap$ -- 13
+text.length$ -- 76
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 1092
+width$ -- 40
+write$ -- 606
